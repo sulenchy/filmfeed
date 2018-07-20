@@ -1,0 +1,31 @@
+// ensure hindi comes before english in the list of languages on the views
+
+// film feeds
+{
+  "film_feeds": [
+    {
+      "title": "Moana awarded best animation movie of all times",
+      "description": "It was an amazing moment for Marvel studio when Lorem ipsum dolor sit amet consec tetur adipisicing elit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicab amet consectetur adipisicino",
+      "slug": "moana-awarded-best-animation-movie-of-all-times",
+      "thumbnail": "/img/m2.jpg",
+      "languages": ["hindi", "english"]
+    }
+  ],
+  "movie_reviews": [
+    {
+      "title": "Bad moms",
+      "main_casts": ["Christina Dole", "Stingi Priya", "Aishwarya Yai", "Samadarshi Dutta"],
+      "thumbnail": "/img/m3.png",
+      "rating": 92.3,
+      "languages": ["hindi", "english"],
+      "genre": ["action", "adventure"],
+      "release_date": 383983983,
+      "duration": "2hrs 45mins"
+    }
+  ]
+}
+
+// Action, Adult, Adventure, Animation, Biography, Biopic, Comedy, Crime, Dance
+// Devotional, Documentary, Drama, Family, Fantasy, History, Horror, Kids, Music
+// Musical, Mythological, Mystery, Period, Political, Psychological, Romance,
+// Sci-Fi, Social, Sport, Spy, Supernatural, Suspence, Thriller, War

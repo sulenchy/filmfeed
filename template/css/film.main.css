@@ -1,0 +1,158 @@
+body {
+  background: #f7f7f7;
+}
+
+.nav-wrapper.container {
+  min-width: 95%;
+}
+
+nav a.brand-logo,
+nav ul li a {
+  color: black;
+}
+
+nav a.brand-logo {
+  padding-top: 0.25%;
+}
+
+nav a.brand-logo img {
+  max-width: 4rem;
+}
+
+nav li a i.icon {
+  color: #3f51b5;
+}
+
+.tabs.tabs-transparent .tab a:hover,
+.tabs.tabs-transparent .tab a.active,
+.tabs.tabs-transparent .tab a,
+.tabs.tabs-transparent .tab.disabled a,
+.tabs.tabs-transparent .tab.disabled a:hover {
+  color: rgb(243, 114, 20);
+}
+
+.amber.lighten-5 {
+  background-color: rgb(255, 248, 225) !important;
+}
+
+.btn-round {
+  border-radius: 2rem;
+}
+
+img.bg.dark-bg {
+  object-fit: cover;
+  height: 15rem;
+  width: 100%;
+  object-position: bottom;
+  filter: brightness(0.7);
+}
+
+ul.nav-cats {
+  margin: 5rem 2rem -1rem;
+}
+
+ul.nav-cats li {
+  display: inline-block;
+}
+
+ul.nav-cats li a {
+  padding: 0.4rem 0.7rem;
+  color: rgb(0, 0, 0);
+}
+
+ul.nav-cats li:hover a , ul.nav-cats li a.active {
+  color: #ffa726;
+}
+
+main .container {
+  min-width: 90%;
+}
+
+.col-title {
+  margin-left: 2rem;
+}
+
+.tabs.tabs-transparent .indicator {
+  background-color: rgb(96, 125, 139);
+  background: #ffa726;
+}
+
+a:focus.active {
+  background-color: rgba(255, 235, 59, 0);
+  outline: none;
+}
+
+li.search-container {
+  position: relative;
+  margin-top: -1.9rem;
+}
+
+li.search-container i.icon {
+  position: absolute;
+  bottom: 1rem;
+  right: 0;
+  cursor: pointer;
+  font-size: 1.5rem;
+}
+
+.single-feed .card-content {
+  padding: 10px 15px;
+}
+
+.single-feed .card-content .divider {
+  margin-bottom: 5px;
+}
+
+.single-feed.review li {
+  margin: 0.5rem 0;
+}
+
+.single-feed a {
+  color: #3f51b5;
+  cursor: pointer;
+}
+
+.single-feed a:hover {
+  text-decoration: underline;
+}
+
+.single-feed a.card-title:hover {
+  text-decoration: none;
+}
+
+.single-feed .card {
+  position: relative;
+}
+
+.single-feed .card .status {
+  position: absolute;
+  top: 0;
+  right: 0;
+  background: rgb(255, 167, 38);
+  color: rgb(255, 255, 255);
+  padding: 0.1rem 1rem;
+  border-bottom-left-radius: 6px;
+  text-transform: capitalize;
+}
+
+.container {
+  min-width: 90%;
+}
+
+.btn.bordered {
+  border: solid 1px;
+}
+
+.general-cats {
+  margin-bottom: 1rem;
+}
+
+.general-cats button {
+  background: white;
+  border: solid 1px grey;
+}
+
+.general-cats button:hover, .general-cats button.active {
+  background: #ffa726;
+  color: white; 
+}
